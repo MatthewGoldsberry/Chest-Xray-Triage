@@ -1,0 +1,15 @@
+{
+  "python.defaultInterpreterPath": "chest-xray-triage.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  
+  // Enable Ruff as the linter
+  "ruff.enable": true,
+
+  // Run Ruff on save
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Use Ruff for formatting (optional but recommended)
+  "editor.defaultFormatter": "charliermarsh.ruff",
+}
